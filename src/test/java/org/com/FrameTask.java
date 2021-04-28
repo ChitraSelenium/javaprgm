@@ -12,6 +12,6 @@ public static void main(String[] args) {
 	driver.findElement(By.id("email")).sendKeys("chitra");
 	driver.findElement(By.id("pass")).sendKeys("23533");
 	driver.findElement(By.name("login")).click();
-	
+	driver.close();
 }
 }
